@@ -92,7 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.bmp");
     background-size: 280px 280px;
 }
 
@@ -823,15 +823,15 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.bmp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.bmp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.bmp");
 }
 
 .bg-presentation {
@@ -1061,7 +1061,8 @@ h4 {
 
     .social {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-    }
+
+}
 }
