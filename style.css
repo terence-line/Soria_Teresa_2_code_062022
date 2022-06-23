@@ -660,6 +660,11 @@ a {
 
 label {
     line-height: 35px;
+    margin-right: 20px;
+}
+
+textarea {
+    margin-right: 40px;
 }
 
 .container {
