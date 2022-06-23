@@ -710,7 +710,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 10px 20px;
 }
 
 h2 {
@@ -1057,5 +1057,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
