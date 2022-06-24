@@ -782,11 +782,12 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color:#f3976c ;
+    background-color: #f9cdb8;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#F0FFF0!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
