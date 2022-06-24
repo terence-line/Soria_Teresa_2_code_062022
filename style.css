@@ -370,9 +370,9 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
+        right: 20px;    
         -webkit-transform: translateY(-50%);
+        transform: translate(0, -50%);
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -554,8 +554,8 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
@@ -750,8 +750,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    margin-left: 10px;
-    margin-right: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
 .portfolio-row {
@@ -863,13 +863,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max--width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (minwidth: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -935,9 +935,9 @@ h4 {
     }
     .site-navigation {
         position: inherit;
-        transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        transform: none;
     }
     .nav > li {
         margin-top: 0;
