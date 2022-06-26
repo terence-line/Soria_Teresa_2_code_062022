@@ -41,8 +41,8 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 5px;
+    padding-right: 0px;
 }
 
 .bloc-lg {
@@ -688,6 +688,7 @@ label {
 p {
     font-size: 14px;
 }
+
 
 .tight-width-whitespace {
     max-width: 600px;
