@@ -687,6 +687,8 @@ label {
 }
 p {
     font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -751,7 +753,6 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    margin-left: 15px;
     margin-right: 10px;
 }
 
@@ -879,7 +880,7 @@ h4 {
 
 @media (max-width: 991px) {
     .container {
-        width: 100%;
+        width: 90%;
     }
     .b-parallax {
         background-attachment: scroll;
