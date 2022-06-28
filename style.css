@@ -512,6 +512,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 50%;
 }
 
 .scrollToTop {
@@ -795,6 +796,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    width: 25%;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1030,11 +1032,17 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
     }
-    form {
+    .form {
         padding: 5px;
     }
 
-   
+    .form-control {
+        width: 100%;
+    }
+
+   .btn-atomic-tangerine {
+    width: 100%;
+   }
     
 
     .close-lightbox {
