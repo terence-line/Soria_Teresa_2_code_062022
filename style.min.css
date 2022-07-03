@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none !important
+    outline: none !important;
 }
 
 a:hover {
@@ -290,6 +290,11 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1
+}
+
+.keywords {
+    color: #cccccc;
+    font-size: 1px;
 }
 
 .navbar-brand {
