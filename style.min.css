@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url(img/texture-paper\ .webp);
+    background: url(img/texture-paper.webp);
     background-size: 280px 280px
 }
 
@@ -852,7 +852,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url(img/image-de-presentation+\ .webp)
+    background-image: url(img/image-de-presentation\ .webp)
 }
 
 @media (max-width:1024px) {
